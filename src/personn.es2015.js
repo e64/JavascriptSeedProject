@@ -15,6 +15,11 @@ class Personn {
         var message = 'hello i am ' + this.name + ' and i am ' + this.age + ' years old';
         return message;
     }
+
+    walk(nbKm){
+        return `I walked ${nbKm} kms`
+    }
+
 }
 
 module.exports = Personn;

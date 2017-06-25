@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "jasmine": "jasmine JASMINE_CONFIG_PATH=tests/support/jasmine.json tests/purejs/*"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-safari-launcher": "^1.0.0",
+    "karma-webpack": "^2.0.3",
     "less": "^2.7.2",
     "less-loader": "^4.0.4",
     "node-sass": "^4.5.3",
