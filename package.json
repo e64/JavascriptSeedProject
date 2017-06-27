@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack  && cp src/*.html dist/",
     "test": "karma start karma.conf.js",
     "jasmine": "jasmine JASMINE_CONFIG_PATH=tests/support/jasmine.json tests/purejs/*"
   },

@@ -2,9 +2,14 @@ var path = require('path');
 var webpack = require("webpack");
 
 module.exports = {
-    entry: './src/index.js',
+    entry:
+        {
+            index: './src/index.js',
+            demo: './src/demo.js',
+            documentation: './src/documentation.js'
+        },
     output: {
-        filename: 'bundle.js',
+        filename: "[name].bundle.js",
         path: path.resolve(__dirname, 'dist')
     },
     plugins: [
