@@ -15,5 +15,5 @@ import {renderHelloReact} from './helloReact.jsx';
 
 
 $(document).ready(function () {
-
+ console.log('ready to go');
 });

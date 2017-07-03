@@ -1,5 +1,6 @@
 @bgcolor: rgba(123,213,123, 1);
 @textcolor: rgba(0, 0, 12, 0.5);
+@blocNumberSize: 1.3em;
 
 body{
   background-color: @bgcolor;
@@ -8,4 +9,37 @@ body{
 .hello {
   color: @textcolor;
   /*background: url('./animal-paw-print.png');*/
+}
+
+
+.listeTables li{
+  display: inline-block;
+  width: @blocNumberSize;
+  height: @blocNumberSize;
+  margin: 0 4px;
+  padding: 6px;
+  text-align: center;
+  color: floralwhite;
+  background-color: black;
+  font-size: 1.5em;
+}
+
+.tableM{
+  list-style-type: none;
+}
+.tableM span{
+  display: inline-block;
+  width: 1.5em;
+  font-size: 1.2em;
+  text-align: center;
+}
+.tableM span.number{
+  width: @blocNumberSize;
+  height: @blocNumberSize;
+  margin: 2px 4px;
+  padding: 6px;
+  text-align: center;
+  color: floralwhite;
+  background-color: black;
+  font-size: 1.2em;
 }

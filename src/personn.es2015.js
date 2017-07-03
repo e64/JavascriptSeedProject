@@ -7,7 +7,7 @@ class Personn {
     }
 
     speak(what) {
-        var message = 'I want to say : '+ what;
+        var message = 'I want to say : ' + what;
         return message;
     }
 
